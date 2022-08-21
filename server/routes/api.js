@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 const userSchema = require('../models/model')
 const mongoose = require('mongoose')
 
-const db = "mongodb+srv://admin:jpPM7fwOrHt2R5o2@cluster0.herbh4k.mongodb.net/eComWebsite?retryWrites=true&w=majority"
+const db = "mongodb+srv://<username>:<password>@cluster0.<link>.mongodb.net/<database>?retryWrites=true&w=majority"
 
 mongoose.connect(db, err => {
     if (err) {
